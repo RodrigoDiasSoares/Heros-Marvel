@@ -1,11 +1,9 @@
 package com.example.desafio_android_rodrigo_dias_soares.netWork
 
-import com.example.desafio_android_rodrigo_dias_soares.model.api.entity.MARVEL_PRIVATE_KEY
-import com.example.desafio_android_rodrigo_dias_soares.model.api.entity.MARVEL_PUBLIC_KEY
-import com.example.desafio_android_rodrigo_dias_soares.model.api.entity.MARVEL_URL
+import com.example.desafio_android_rodrigo_dias_soares.constant.MARVEL_PRIVATE_KEY
+import com.example.desafio_android_rodrigo_dias_soares.constant.MARVEL_PUBLIC_KEY
+import com.example.desafio_android_rodrigo_dias_soares.constant.MARVEL_URL
 import com.google.gson.GsonBuilder
-import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
-import kotlinx.coroutines.Deferred
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

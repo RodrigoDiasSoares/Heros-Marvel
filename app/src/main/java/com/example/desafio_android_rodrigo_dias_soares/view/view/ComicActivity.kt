@@ -5,17 +5,11 @@ import android.os.Bundle
 import android.util.Log
 import androidx.lifecycle.ViewModelProvider
 import com.example.desafio_android_rodrigo_dias_soares.R
-import com.example.desafio_android_rodrigo_dias_soares.model.api.entity.CHARACTER_ID
-import com.example.desafio_android_rodrigo_dias_soares.model.api.entity.Character
+import com.example.desafio_android_rodrigo_dias_soares.constant.CHARACTER_ID
 import com.example.desafio_android_rodrigo_dias_soares.model.api.entity.Comic
-import com.example.desafio_android_rodrigo_dias_soares.netWork.ComicResponse
 import com.example.desafio_android_rodrigo_dias_soares.viewModel.ComicViewModel
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_comic.*
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.launch
-import java.io.Serializable
 
 class ComicActivity : AppCompatActivity() {
 

@@ -11,6 +11,10 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.desafio_android_rodrigo_dias_soares.R
 import com.example.desafio_android_rodrigo_dias_soares.adapter.CharactersAdapter
+import com.example.desafio_android_rodrigo_dias_soares.constant.CHARACTER_DESCRIPTION
+import com.example.desafio_android_rodrigo_dias_soares.constant.CHARACTER_ID
+import com.example.desafio_android_rodrigo_dias_soares.constant.CHARACTER_NAME
+import com.example.desafio_android_rodrigo_dias_soares.constant.CHARACTER_THUMBNAIL
 import com.example.desafio_android_rodrigo_dias_soares.listener.CharacterListener
 import com.example.desafio_android_rodrigo_dias_soares.model.api.entity.*
 import com.example.desafio_android_rodrigo_dias_soares.viewModel.CharactersViewModel

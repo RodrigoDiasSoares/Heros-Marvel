@@ -4,6 +4,10 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.desafio_android_rodrigo_dias_soares.R
+import com.example.desafio_android_rodrigo_dias_soares.constant.CHARACTER_DESCRIPTION
+import com.example.desafio_android_rodrigo_dias_soares.constant.CHARACTER_ID
+import com.example.desafio_android_rodrigo_dias_soares.constant.CHARACTER_NAME
+import com.example.desafio_android_rodrigo_dias_soares.constant.CHARACTER_THUMBNAIL
 import com.example.desafio_android_rodrigo_dias_soares.model.api.entity.*
 import com.example.desafio_android_rodrigo_dias_soares.netWork.MarvelClient
 import com.squareup.picasso.Picasso
