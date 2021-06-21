@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.view.ComicActivity">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvThumbnailComic"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ivComic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#33000000"
+                android:contentDescription="@string/image"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_launcher_foreground" />
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="16dp"
+                android:background="#99000000"
+                android:text="@string/comic_title"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/tvComicDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:background="#aa000000"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:maxLines="3"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cvThumbnailComic" />
+
+    <TextView
+        android:id="@+id/tvComicPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:background="#aa000000"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:maxLines="3"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvComicDescription" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

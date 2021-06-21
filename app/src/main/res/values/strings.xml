@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">desafio-android-rodrigo-dias-soares</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image">Image</string>
+    <string name="hero_name">Hero Name</string>
+    <string name="comic_name">comic name</string>
+    <string name="comic_title">comic title</string>
+</resources>
